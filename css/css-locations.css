@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  background-image: url("../photos/background.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1  {
+  margin: 0 0 0px 40px;
+  padding-top: 15px;
+  font-family: 'Bangers', cursive;
+  width: 60%;
+  font-size: 50px;
+  letter-spacing: 0.085em;
+  color: black;
+  text-shadow: -5px 3px 0 #097A81, -10px 6px 0 #875406;
+}
+
+ul   {
+  /*padding: 16px 60px 10px 150px;*/
+  word-spacing: 30px;
+  width: 65%;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 35px;
+}
+
+nav {
+  margin: 12px 0px 0px 10px;
+  width: 75%;
+}
+
+/*following is code for buttons*/
+
+.ribbon {
+  float: left;
+  margin-right: 20px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+ .ribbon {
+    display:block;
+    position:relative;
+    width:210px;
+    height:50px;
+    padding-top:3px;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    text-decoration:none;
+    cursor:pointer;
+    transition: all 0.1s ease;
+}
+
+.ribbon .btn {
+  width: 75%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #32477e;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.4);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.1s ease;
+}
+
+.btn:before, .btn:after {
+  content:"";
+  display:block;
+  position: absolute;
+  width:25%;
+  height:0;
+  top:10px;
+  border-top: 18px solid #25365e;
+  border-bottom: 18px solid #25365e;
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform:rotate(360deg);
+  z-index:-1;
+  transition: all 0.2s ease;
+}
+
+.btn:before {
+  left:0px;
+  border-left:12px solid rgba(255, 255, 255, 0);
+}
+
+.btn:after {
+  right:0px;
+  border-right:12px solid rgba(255, 255, 255, 0);
+}
+
+/*Colors*/
+
+.ribbon.teal .btn {
+  background-color: teal;
+}
+
+.ribbon.teal .btn:before, .ribbon.teal .btn:after {
+  border-top-color:#16737A;
+  border-bottom-color:#16737A;
+}
+
+.ribbon.orange .btn {
+  background-color:#cd4d00;
+}
+
+.ribbon.orange .btn:before, .ribbon.orange .btn:after {
+  border-top-color:#893d10;
+  border-bottom-color:#893d10;
+}
+
+/*Hover*/
+
+.ribbon:hover {
+  padding-top:0;
+}
+
+.ribbon:hover .btn {
+  height:56px;
+  width:77%;
+  line-height:56px;
+  font-size:1.1em;
+  top:0px;
+}
+
+.ribbon:hover .btn:before {
+  left:5%;
+}
+
+.ribbon:hover .btn:after {
+  right:5%;
+}
+
+/*above encompasses buttons*/
+
+.filler {
+  position: relative;
+  -webkit-box-shadow: 0 0 40px #351900;
+  box-shadow: 0 0 37px #351900;
+  border-radius: 7px;
+}
+
+.filler:after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("http://genarrator.org/loadimage/qpbfcfnapyf75p27/26-stained-parchment-background-sml.jpg"); 
+  width: 100%;
+  height: 100%;
+  opacity : 0.6;
+  z-index: -1;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.logo-photo {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 13%;
+  height: 150px;
+  float: right;
+  display: inline-block;
+}
+
+/*following is code for social media icons*/
+
+.fa   {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover   {
+  opacity: 0.9;
+}
+
+.fa-facebook  {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-tumblr  {
+  color: white;
+  background: #36465c;
+}
+
+.fa-instagram {
+  color: white;
+  background: #125688;
+}
+
+.fa-youtube {
+  color: white;
+  background: #bb0000;
+}
+
+.social-media {
+  margin: 20px 0px 20px 0px;
+  overflow: none;
+  width: 100%;
+  height: 121px;
+}
+
+.footer-header  {
+  font-family: "Bangers", cursive;
+  text-shadow: -4px 2px 0 #097A81, -7px 4px 0 #875406;
+  font-size: 44px;
+  margin-left: 20px;
+  width: 100%;
+  float: left;
+}
+
+.featured-header  {
+  width: 100%;
+  font-family: 'Bangers', cursive;
+  letter-spacing: .1em;
+  font-size: 44px;
+  float: left;
+  text-shadow: -4px 2px 0 #097A81, -7px 4px 0 #875406;
+  text-align: center;
+}
+
+.site-bios  {
+  height: 800px;
+}
+
+.kings-park-bio {
+  height: 200px;
+  width: 100%;
+  border: solid 1px black;
+}
