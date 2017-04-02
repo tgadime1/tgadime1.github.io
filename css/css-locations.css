@@ -33,6 +33,11 @@ nav {
   width: 75%;
 }
 
+h3  {
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+}
+
 /*following is code for buttons*/
 
 .ribbon {
@@ -240,27 +245,27 @@ nav {
   width: 100%;
   font-family: 'Bangers', cursive;
   letter-spacing: .1em;
-  font-size: 44px;
+  font-size: 45px;
   text-shadow: -4px 2px 0 #097A81, -7px 4px 0 #875406;
   text-align: center;
   padding-top: 25px;
 }
 
 .site-bios  {
-  height: 1040px;
+  height: 1030px;
 }
 
 .kings-park-bio {
   height: 250px;
   width: 49%;
-  border: solid 1px black;
+  border-bottom: dashed 4px black;
   margin-left: 5px;
 }
 
 .welwyn-bio {
   height: 250px;
   width: 49%;
-  border: solid 1px black;
+  border-bottom: dashed 4px black;
   margin-left: 5px;
   margin-top: 8px;
 }
@@ -268,7 +273,7 @@ nav {
 .rhode-island-bio {
   height: 250px;
   width: 49%;
-  border: solid 1px black;
+  border-bottom: dashed 4px black;
   margin-left: 5px;
   margin-top: 8px;
   float: left;
@@ -277,7 +282,7 @@ nav {
 .enchanted-forest-bio {
   height: 250px;
   width: 49%;
-  border: solid 1px black;
+  border-bottom: dashed 4px black;
   margin-right: 5px;
   margin-top: 8px;
   float: right;
@@ -286,7 +291,6 @@ nav {
 .jewish-temple-bio  {
   height: 250px;
   width: 49%;
-  border: solid 1px black;
   margin-left: 5px;
   margin-top: 8px;
   float: left;
@@ -295,7 +299,6 @@ nav {
 .camp-hero-bio  {
   height: 250px;
   width: 49%;
-  border: solid 1px black;
   margin-right: 5px;
   margin-top: 8px;
   float: right;
@@ -304,48 +307,54 @@ nav {
 .kings-park-photo  {
   height: 240px;
   width: 210px;
-  margin-top: 5px;
   margin-left: 5px;
+  border-radius: 10px;
+  border: 2px solid #422C1B;
 }
 
 .welwyn-preserve-photo  {
   height: 240px;
   width: 270px;
-  margin-top: 5px;
   margin-right: 5px;
   float: right;
+  border-radius: 6px;
+  border: 2px solid #422C1B;
 }
 
 .the-bells-photo  {
   height: 240px;
   width: 270px;
-  margin-top: 5px;
   margin-left: 5px;
   float: left;
+  border-radius: 9px;
+  border: 2px solid #422C1B;
 }
 
 .enchanted-forest-photo {
   height: 240px;
   width: 290px;
-  margin-top: 5px;
   margin-left: 5px;
   float: left;
+  border-radius: 9px;
+  border: 2px solid #422C1B;
 }
 
 .jewish-temple-photo  {
   height: 240px;
   width: 290px;
-  margin-top: 5px;
   margin-right: 5px;
   float: right;
+  border-radius: 8px;
+  border: 2px solid #422C1B;
 }
 
 .camp-hero-photo  {
   height: 240px;
   width: 280px;
-  margin-top: 5px;
   margin-right: 5px;
   float: right;
+  border-radius: 8px;
+  border: 2px solid #422C1B;
 }
 
 .grow { 
@@ -359,7 +368,7 @@ nav {
 
 .grow-camp-hero:hover {
   transform: scale(1.7);
-  margin-right: 80px;
+  margin-right: 90px;
 }
 
 .grow-welwyn:hover {
@@ -376,9 +385,49 @@ nav {
   margin-left: 50px; 
 }
 
+.right-header  {
+  float: right;
+}
+
+.left-header  {
+  float: left;
+}
+
+.kings-park-header  {
+  margin-right: 27px;
+  margin-top: 0px;
+}
+
+.welwyn-header  {
+  margin-left: 60px;
+  margin-top: 0px;
+}
+
+.the-bells-header   {
+  margin-right: 70px;
+  margin-top: 0px;
+}
+
+.enchanted-forest-header  {
+  margin-top: 0px;
+  margin-right: 40px;
+}
+
+.synagogue-header {
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.camp-hero-header {
+  margin-top: 0px;
+  margin-left: 70px;
+}
+
 #map {
   height: 505px;
   width: 49%;
   float: right;
   margin-right: 5px;
+  border-radius: 15px;
+  border: solid 2px black;
 }
