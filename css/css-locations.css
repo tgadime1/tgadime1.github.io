@@ -241,17 +241,110 @@ nav {
   font-family: 'Bangers', cursive;
   letter-spacing: .1em;
   font-size: 44px;
-  float: left;
   text-shadow: -4px 2px 0 #097A81, -7px 4px 0 #875406;
   text-align: center;
+  padding-top: 25px;
 }
 
 .site-bios  {
-  height: 800px;
+  height: 1040px;
 }
 
 .kings-park-bio {
-  height: 200px;
-  width: 100%;
+  height: 250px;
+  width: 49%;
   border: solid 1px black;
+  margin-left: 5px;
+}
+
+.welwyn-bio {
+  height: 250px;
+  width: 49%;
+  border: solid 1px black;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.rhode-island-bio {
+  height: 250px;
+  width: 49%;
+  border: solid 1px black;
+  margin-left: 5px;
+  margin-top: 8px;
+  float: left;
+}
+
+.enchanted-forest-bio {
+  height: 250px;
+  width: 49%;
+  border: solid 1px black;
+  margin-right: 5px;
+  margin-top: 8px;
+  float: right;
+}
+
+.jewish-temple-bio  {
+  height: 250px;
+  width: 49%;
+  border: solid 1px black;
+  margin-left: 5px;
+  margin-top: 8px;
+  float: left;
+}
+
+.camp-hero-bio  {
+  height: 250px;
+  width: 49%;
+  border: solid 1px black;
+  margin-right: 5px;
+  margin-top: 8px;
+  float: right;
+}
+
+.kings-park-hallway  {
+  height: 240px;
+  width: 210px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.welwyn-preserve-photo  {
+  height: 240px;
+  width: 270px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+.the-bells-photo  {
+  height: 240px;
+  width: 270px;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow-welwyn:hover {
+  transform: scale(1.7);
+}
+
+.grow-bells:hover {
+  transform: scale(1.7);
+  margin-left: 90px;
+}
+
+.grow:hover { 
+  transform: scale(1.7);
+  margin-left: 50px; 
+}
+
+#map {
+  height: 505px;
+  width: 49%;
+  float: right;
+  margin-right: 5px;
 }
