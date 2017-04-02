@@ -10,7 +10,7 @@ function initialize(){
     {name: 'Welwyn Preserve', address: '100 CRESCENT BEACH RD, GLEN COVE, NY 11542', lat: 40.884929, lng: -73.640373},
     {name: 'The Bells', address: 'OCEAN DRIVE, NEWPORT, RI 02840', lat: 41.4528, lng: -71.3544},
     {name: 'Enchanted Forest', address: '909 MAIN STREET, HOPE VALLEY, RI 02832', lat: 41.4666, lng: -71.7695},
-    {name: 'Camp Hero', address: '349 5TH AVENUE, NEW YORK, NY 10016', lat: 41.063081, lng: -71.872982},
+    {name: 'Camp Hero', address: '1898 MONTAUK HWY, MONTAUK, NY 11954', lat: 41.063081, lng: -71.872982},
     {name: 'East Nassau Hebrew Synagogue', address: '310 S OYSTER BAY RD # A, SYOSSET, NY 11791', lat: 40.794482, lng: -73.503689},
   ];
 

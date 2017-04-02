@@ -301,7 +301,7 @@ nav {
   float: right;
 }
 
-.kings-park-hallway  {
+.kings-park-photo  {
   height: 240px;
   width: 210px;
   margin-top: 5px;
@@ -324,8 +324,42 @@ nav {
   float: left;
 }
 
+.enchanted-forest-photo {
+  height: 240px;
+  width: 290px;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+
+.jewish-temple-photo  {
+  height: 240px;
+  width: 290px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+.camp-hero-photo  {
+  height: 240px;
+  width: 280px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
 .grow { 
   transition: all .2s ease-in-out; 
+}
+
+.grow-kings-park:hover {
+  transform: scale(1.7);
+  margin-left: 80px;
+}
+
+.grow-camp-hero:hover {
+  transform: scale(1.7);
+  margin-right: 80px;
 }
 
 .grow-welwyn:hover {
