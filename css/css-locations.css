@@ -423,11 +423,170 @@ h3  {
   margin-left: 70px;
 }
 
+.kings-park-facts {
+  padding-top: 15px;
+  margin-left: 217px;
+  word-spacing: 2px;
+  float: right;
+  justify-content: center;
+}
+
+.welwyn-preserve-facts  {
+  margin-left: 0px;
+  padding-top: 15px;
+  word-spacing: 0px;
+}
+
+.rhode-island-facts {
+  word-spacing: 0px;
+  padding-top: 15px;
+}
+
+.enchanted-forest-facts {
+  word-spacing: 0px;
+  padding-top: 15px;
+}
+
+.synagogue-facts  {
+  word-spacing: 0px;
+  padding-top: 15px;
+}
+
+.camp-hero-facts  {
+  word-spacing: 0px;
+  padding-top: 15px;
+}
+
+.camp-hero-facts1 {
+  margin-left: -433px;
+}
+
+.camp-hero-facts2 {
+  margin-left: -457px;
+}
+
+.camp-hero-facts3 {
+  margin-left: -458px;
+}
+
+.camp-hero-facts4 {
+  margin-left: -456px;
+}
+
+.camp-hero-facts5 {
+  margin-left: -435px;
+}
+
+.synagogue-facts1 {
+  margin-left: -410px;
+}
+
+.synagogue-facts2 {
+  margin-left: -430px;
+}
+
+.synagogue-facts3 {
+  margin-left: -435px;
+}
+
+.synagogue-facts4 {
+  margin-left: -390px;
+}
+
+.synagogue-facts5 {
+  margin-left: -410px;
+}
+
+.enchanted-forest-facts1  {
+  margin-left: -137px;
+}
+
+.enchanted-forest-facts2  {
+  margin-left: -130px;
+}
+
+.enchanted-forest-facts3  {
+  margin-left: -143px;
+}
+
+.enchanted-forest-facts4  {
+  margin-left: -100px;
+}
+
+.enchanted-forest-facts5  {
+  margin-left: -50px;
+  padding-top: 0px;
+}
+
+.rhode-island-facts1  {
+  margin-left: -125px;
+}
+
+.rhode-island-facts2  {
+  margin-left: -160px;
+}
+
+.rhode-island-facts3  {
+  margin-left: -145px;
+}
+
+.rhode-island-facts4  {
+  margin-left: -155px;
+}
+
+.rhode-island-facts5  {
+  margin-left: -157px;
+}
+
+.kings-park-facts2  {
+  margin-left: -28px;
+}
+
+.kings-park-facts3  {
+  margin-left: -33px;
+}
+
+.kings-park-facts4  {
+  margin-left: -20px;
+}
+
+.kings-park-facts5  {
+  margin-left: -30px;
+}
+
+.welwyn-preserve-facts1 {
+  margin-left: -12px;
+}
+
+.welwyn-preserve-facts2 {
+  margin-left: -30px;
+}
+
+.welwyn-preserve-facts3 {
+  margin-left: -42px;
+}
+
+.welwyn-preserve-facts4  {
+  margin-left: -6px;
+}
+
+.welwyn-preserve-facts5 {
+  margin-left: -11px;
+}
+
+li  {
+  font-family: "Trebuchet MS";
+  font-size: 17px;
+  list-style-type: none;
+  font-weight: bold;
+  line-height: 37px;
+}
+
 #map {
   height: 505px;
   width: 49%;
   float: right;
   margin-right: 5px;
   border-radius: 15px;
-  border: solid 2px black;
+  border: solid 3px #422C1B;
 }
