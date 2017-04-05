@@ -199,7 +199,7 @@ div.main-photo:hover .caption  {
   background-image: url("http://genarrator.org/loadimage/qpbfcfnapyf75p27/26-stained-parchment-background-sml.jpg"); 
   width: 100%;
   height: 100%;
-  opacity : 0.6;
+  opacity : 0.7;
   z-index: -1;
 }
 
@@ -257,7 +257,7 @@ div.main-photo:hover .caption  {
   border: 2px solid #351900;
   -moz-box-shadow: 5px 5px 3px #351900; 
   -webkit-box-shadow: 5px 5px 3px #351900; 
-  box-shadow: 5px 5px 3px #351900; 
+  box-shadow: 7px 7px 4px #351900; 
   -moz-border-radius:25px; 
   -webkit-border-radius:25px; 
   border-radius:25px; 

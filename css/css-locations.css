@@ -34,8 +34,17 @@ nav {
 }
 
 h3  {
-  font-family: "Rock Salt", cursive;
+  font-family: "Permanent Marker", cursive;
   font-weight: bold;
+  font-size: 25px;
+}
+
+li  {
+  font-family: "Baskerville";
+  font-size: 17px;
+  list-style-type: none;
+  font-weight: bold;
+  line-height: 37px;
 }
 
 /*following is code for buttons*/
@@ -165,7 +174,7 @@ h3  {
   background-image: url("http://genarrator.org/loadimage/qpbfcfnapyf75p27/26-stained-parchment-background-sml.jpg"); 
   width: 100%;
   height: 100%;
-  opacity : 0.6;
+  opacity : 0.7;
   z-index: -1;
 }
 
@@ -249,6 +258,7 @@ h3  {
   text-shadow: -4px 2px 0 #097A81, -7px 4px 0 #875406;
   text-align: center;
   padding-top: 25px;
+  margin-bottom: 20px;
 }
 
 .site-bios  {
@@ -258,14 +268,14 @@ h3  {
 .kings-park-bio {
   height: 250px;
   width: 49%;
-  border-bottom: dashed 4px black;
+  border-bottom: double 6px #422C1B;
   margin-left: 5px;
 }
 
 .welwyn-bio {
   height: 250px;
   width: 49%;
-  border-bottom: dashed 4px black;
+  border-bottom: double 6px #422C1B;
   margin-left: 5px;
   margin-top: 8px;
 }
@@ -273,7 +283,7 @@ h3  {
 .rhode-island-bio {
   height: 250px;
   width: 49%;
-  border-bottom: dashed 4px black;
+  border-bottom: double 6px #422C1B;
   margin-left: 5px;
   margin-top: 8px;
   float: left;
@@ -282,7 +292,7 @@ h3  {
 .enchanted-forest-bio {
   height: 250px;
   width: 49%;
-  border-bottom: dashed 4px black;
+  border-bottom: double 6px #422C1B;
   margin-right: 5px;
   margin-top: 8px;
   float: right;
@@ -362,27 +372,35 @@ h3  {
 }
 
 .grow-kings-park:hover {
-  transform: scale(1.7);
-  margin-left: 80px;
+  transform: scale(1.2);
+  margin-left: 10px;
 }
 
 .grow-camp-hero:hover {
-  transform: scale(1.7);
-  margin-right: 90px;
+  transform: scale(1.2);
+  margin-right: 15px;
 }
 
 .grow-welwyn:hover {
-  transform: scale(1.7);
+  transform: scale(1.2);
 }
 
 .grow-bells:hover {
-  transform: scale(1.7);
-  margin-left: 90px;
+  transform: scale(1.2);
+  margin-left: 15px;
+}
+
+.grow-enchanted:hover   {
+  transform: scale(1.2);
+}
+
+.grow-synagogue:hover   {
+  transform: scale(1.2);
 }
 
 .grow:hover { 
-  transform: scale(1.7);
-  margin-left: 50px; 
+  transform: scale(1.2);
+  margin-left: 15px; 
 }
 
 .right-header  {
@@ -394,33 +412,39 @@ h3  {
 }
 
 .kings-park-header  {
-  margin-right: 27px;
+  margin-right: -5px;
   margin-top: 0px;
+  font-size: 27px;
 }
 
 .welwyn-header  {
-  margin-left: 60px;
+  margin-left: 28px;
   margin-top: 0px;
+  font-size: 32px;
 }
 
 .the-bells-header   {
-  margin-right: 70px;
+  margin-right: 25px;
   margin-top: 0px;
+  font-size: 32px;
 }
 
 .enchanted-forest-header  {
   margin-top: 0px;
-  margin-right: 40px;
+  margin-right: 8px;
+  font-size: 29px;
 }
 
 .synagogue-header {
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 6px;
+  font-size: 27px;
 }
 
 .camp-hero-header {
   margin-top: 0px;
-  margin-left: 70px;
+  margin-left: 55px;
+  font-size: 33px;
 }
 
 .kings-park-facts {
@@ -460,19 +484,19 @@ h3  {
 }
 
 .camp-hero-facts1 {
-  margin-left: -433px;
+  margin-left: -430px;
 }
 
 .camp-hero-facts2 {
-  margin-left: -457px;
+  margin-left: -453px;
 }
 
 .camp-hero-facts3 {
-  margin-left: -458px;
+  margin-left: -461px;
 }
 
 .camp-hero-facts4 {
-  margin-left: -456px;
+  margin-left: -460px;
 }
 
 .camp-hero-facts5 {
@@ -488,7 +512,7 @@ h3  {
 }
 
 .synagogue-facts3 {
-  margin-left: -435px;
+  margin-left: -440px;
 }
 
 .synagogue-facts4 {
@@ -500,7 +524,7 @@ h3  {
 }
 
 .enchanted-forest-facts1  {
-  margin-left: -137px;
+  margin-left: -140px;
 }
 
 .enchanted-forest-facts2  {
@@ -525,7 +549,7 @@ h3  {
 }
 
 .rhode-island-facts2  {
-  margin-left: -160px;
+  margin-left: -165px;
 }
 
 .rhode-island-facts3  {
@@ -533,19 +557,23 @@ h3  {
 }
 
 .rhode-island-facts4  {
-  margin-left: -155px;
+  margin-left: -160px;
 }
 
 .rhode-island-facts5  {
-  margin-left: -157px;
+  margin-left: -160px;
+}
+
+.kings-park-facts1  {
+  margin-left: 12px;
 }
 
 .kings-park-facts2  {
-  margin-left: -28px;
+  margin-left: -24px;
 }
 
 .kings-park-facts3  {
-  margin-left: -33px;
+  margin-left: -29px;
 }
 
 .kings-park-facts4  {
@@ -576,19 +604,11 @@ h3  {
   margin-left: -11px;
 }
 
-li  {
-  font-family: "Trebuchet MS";
-  font-size: 17px;
-  list-style-type: none;
-  font-weight: bold;
-  line-height: 37px;
-}
-
 #map {
   height: 505px;
   width: 49%;
   float: right;
   margin-right: 5px;
   border-radius: 15px;
-  border: solid 3px #422C1B;
+  border: solid 2px #422C1B;
 }
